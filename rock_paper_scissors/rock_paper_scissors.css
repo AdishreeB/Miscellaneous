@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #3a606e;
+}
+
+.title {
+  text-align: center;
+  line-height: 70px ;
+  height: 70px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.choice {
+  height: 200px;
+  width: 150px;
+}
+
+.choices {
+  height:200px;
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+img {
+  height:150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 18px;
+} 
+
+#scores {
+  text-align: center;
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+  column-gap: 20px;
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.score_board {
+  text-align: center;
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+.choice:hover {
+  opacity: 0.8;
+}
+
+#scores_2 {
+  text-align: center;
+  font-size: 4vh;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.scoreUser {
+  font-size: 8vh;
+}
+
+.scoreComp {
+  font-size: 8vh;
+}
+
+.result {
+  margin-top: 40px;
+  font-size: 4vh;
+  text-align: center;
+}
+
+
